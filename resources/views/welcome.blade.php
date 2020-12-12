@@ -296,7 +296,7 @@
             ></polygon>
           </svg>
         </div>
-        <div class="container mx-auto px-4">
+        {{-- <div class="container mx-auto px-4">
           <div class="items-center flex flex-wrap">
             <div class="w-full md:w-4/12 ml-auto mr-auto px-4">
               <img
@@ -364,9 +364,9 @@
               </div>
             </div>
           </div>
-        </div>
+        </div> --}}
       </section>
-      <section class="pt-20 pb-48">
+      <section class="pb-48">
         <div class="container mx-auto px-4">
           <div class="flex flex-wrap justify-center text-center mb-24">
             <div class="w-full lg:w-6/12 px-4">

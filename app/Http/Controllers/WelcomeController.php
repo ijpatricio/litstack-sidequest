@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use Ignite\Support\Facades\Form;
 use Illuminate\Http\Request;
 
 class WelcomeController extends Controller
@@ -14,6 +15,8 @@ class WelcomeController extends Controller
      */
     public function show(Request $request)
     {
-        return view('welcome');
+        $page = Form::load('pages', 'welcome');
+
+        return view('welcome')->with('page', $page);
     }
 }
